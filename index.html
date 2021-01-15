@@ -39,7 +39,7 @@
             <nav>
                 <ul>
                   <li><a href="#about">About Me</a></li>
-                  <li><a href="#Summary">Summary</a></li>
+                  <li><a href="#previous">Previous Projects</a></li>
                   <li><a href="#skills">Skills</a></li>
                 </ul>
               </nav>
@@ -67,6 +67,14 @@
              If I sound like a good fit, <strong> please contact me at jtakei@ucsd.edu </strong>.
         </p>
         <hr>
+        <h3>Random Stuff</h3>
+        <label for="story">My favorite quote:</label>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+          Ego says "once everything falls into place, I'll feel peace."" The Soul says "find your peace and then everything will fall into place."
+
+</textarea>
         My <b>favorite</b> TV show at the moment is <i>New Girl</i>. 
     </section>
     <section id="previous">
@@ -102,6 +110,39 @@
 </iframe>
     <section id="things">
         <h2>Things I Want to do Before I Graduate</h2> 
+        <table>
+            <caption>Hopefully corona ends so i can go back and do these things :(</caption>
+    <colgroup>
+        <col>
+        <col span="2" class="yes/no">
+        <col span="2" class="things">
+    </colgroup>
+            <tr>
+              <th scope="col"> Have I Done It?</th>
+              <th scope="col"> Thing</th>
+              
+              </tr>
+              <tr>
+                <td> yes</td>
+                <td> Explore San Diego</td>
+              </tr>
+              <tr>
+                <td> yes</td>
+                <td> Join clubs</td>
+              </tr>
+              <tr>
+                <td> no</td>
+                <td> Learn to surf</td>
+              </tr>
+              <tr>
+                <td> no</td>
+                <td> Get an internship</td>
+              </tr>
+              <tr>
+                <td> no</td>
+                <td> Study abroad</td>
+              </tr>
+            </table>
         <aside>
             <p>
               The movie earned $87 million during its initial release.
@@ -131,7 +172,7 @@
           <input type="color" id="pink" name="Pink" value="#e66465">
         <div>
 
-        <p>What do you like to to for fun? (select all that applies)</p>
+        <p>What do you like to to for fun? (Select all that apply.)</p>
 
 <div>
   <input type="checkbox" id="choice1" name="choice1"
@@ -164,7 +205,17 @@
           <label><input type="radio" name="radio"> True</label>
           <label><input type="radio" name="radio"> False</label>
         </fieldset>
-   
+        <label for="ice-cream-choice">Choose a flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+        
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist>
+        
       <label for="dino-select">Choose a dinosaur:</label>
 <select id="dino-select">
     <optgroup label="Theropods">
@@ -187,7 +238,7 @@
   <label for="volume">Happiness</label>
 </div>
 
-    <button>Save</button> <input type="submit" value="Send Request">
+    <button>Save</button> <input type="submit" value="Submit">
     </form>
    </section>
     
