@@ -11,6 +11,11 @@
         </section>
     </header>
         <body>
+            <label for="site-search">Search my site:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<button>Search</button>
             <figure>
                 <figcaption>Listen to some relaxing music:</figcaption>
                 <audio
@@ -92,8 +97,8 @@
 
         </ol>
     </section>
-    <iframe src="https://www.google.com/maps/d/u/0/viewer?ie=UTF8&t=h&oe=UTF8&msa=0&mid=1NcqzkcjMWsYja5uDYt1AdK3RE3I&ll=48.857642377988874%2C2.2952519632725332&z=16"
-            title="The Eiffel Tower" width="400" height="300">
+    <iframe src="https://en.wikipedia.org/wiki/Guianodendron"
+            title="Random Wiki Article" width="400" height="300">
 </iframe>
     <section id="things">
         <h2>Things I Want to do Before I Graduate</h2> 
@@ -108,24 +113,23 @@
        <form>
         <label>Name:
           <input type="text" id="name" name="name" required
-          minlength="4" maxlength="8" size="10">>
+          minlength="4" maxlength="8" size="10">
         </label>
-        <button>Save</button>
+        <br>
         <label for="start">Today's date:</label>
 
 <input type="date" id="start" name="start"
        value="2020-00-00"
        min="2020-01-01" max="2021-12-31">
       <!-- Form which will send a POST request to the current URL -->
+      <br>
       <label for="email">Enter your gmail:</label>
 
 <input type="email" id="email"
-       pattern=".+@gmail.com" size="30" required>  
+         size="30" required>  
       <p>Favorite Color:</p> 
           <input type="color" id="pink" name="Pink" value="#e66465">
-        <label for="pinK"> Pink</label>
         <div>
-        <button>Save</button>
 
         <p>What do you like to to for fun? (select all that applies)</p>
 
@@ -139,14 +143,15 @@
   <input type="checkbox" id="choice2" name="choice2">
   <label for="choice2">Read</label>
 </div>
-div>
+<div>
   <input type="checkbox" id="choice3" name="choice3">
   <label for="choice3">Listen to Music</label>
 </div>
-div>
+<div>
   <input type="checkbox" id="choice4" name="choice4">
   <label for="choice4">Play Video Games</label>
 </div>
+<br>
 <label for="url"> Recommend a website:</label>
 
 <input type="url" name="url" id="url"
@@ -168,6 +173,21 @@ div>
         <option>Deinonychus</option>
     </optgroup>
     </select>
+    <label for="avatar">Choose a picture:</label>
+
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+       <br>
+    <p>How happy are you with this survey?</p>
+
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">Happiness</label>
+</div>
+
+    <button>Save</button> <input type="submit" value="Send Request">
     </form>
    </section>
     
