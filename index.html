@@ -103,7 +103,40 @@
             </p>
           </aside>
     </section>
+   <section>
+       <h2>Survey</h2>
+       <form>
+        <label>Name:
+          <input name="submitted-name" autocomplete="name">
+        </label>
+        <button>Save</button>
+      </form>
+      
+      <!-- Form which will send a POST request to the current URL -->
+        <p>Which Color is Better?</p> 
+          <input type="color" id="pink" name="Pink" value="#e66465">
+        <label for="pinK"> Pink</label>
+        <div>
+            <input type="color" id="orange" name="Orange" value="#f6b73c">
+        <label for="orange"> Orange</label>
+        </div>
+        <button>Save</button>
+
+        <fieldset>
+          <legend>Title</legend>
+          <label><input type="radio" name="radio"> Select me</label>
+        </fieldset>
    
+      <label for="dino-select">Choose a dinosaur:</label>
+<select id="dino-select">
+    <optgroup label="Theropods">
+        <option>Tyrannosaurus</option>
+        <option>Velociraptor</option>
+        <option>Deinonychus</option>
+    </optgroup>
+    </select>
+    </form>
+   </section>
     
         </body>
         <main>
