@@ -5,12 +5,13 @@
         <meta charset="utf-8">
         <link href="main.css" rel="stylesheet">
     </head>
+    <body></body>
     <header class="page-header">
         <section>
         <h1>Welcome to Jasmine's Site</h1>
         </section>
     </header>
-        <body>
+        
             <label for="site-search">Search my site:</label>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
@@ -51,9 +52,8 @@
         <section id="about">
         <h2>About Me</h2>
         <picture>
-            <source src="0DEDCC0C-2C2A-4606-A707-5AE08E01264D.JPEG">
-                <img src="0DEDCC0C-2C2A-4606-A707-5AE08E01264D.JPEG" width="200" height="300 "alt="Me" >
-              </picture>
+            <source srcset="0DEDCC0C-2C2A-4606-A707-5AE08E01264D.JPEG">
+                <img src="0DEDCC0C-2C2A-4606-A707-5AE08E01264D.JPEG" width="200" height="300" alt="Me">
         </picture>
     </section>
     <section id="Summary">
@@ -62,7 +62,7 @@
             Currently, I am seeking a software engineering summer internship for the year of
             <em>2021</em>. My primary interests and strong foundations are in programming 
              logic, object-oriented design, and computer organization. <br>
-             I am <span class"qualities">energetic, highly 
+             I am <span class="qualities">energetic, highly 
              sociable, and passionate </span> about working as a team and as well as independently. 
              If I sound like a good fit, <strong> please contact me at jtakei@ucsd.edu </strong>.
         </p>
@@ -118,7 +118,6 @@
         <table>
             <caption>Hopefully corona ends so i can go back and do these things :(</caption>
     <colgroup>
-        <col>
         <col span="2" class="yes/no">
         <col span="2" class="things">
     </colgroup>
@@ -164,11 +163,12 @@
           <input type="text" id="name" name="name" required
           minlength="4" maxlength="8" size="10">
         </label>
+    </form>
         <br>
         <label for="start">Today's date:</label>
 
 <input type="date" id="start" name="start"
-       value="2020-00-00"
+       value="2021-01-15"
        min="2020-01-01" max="2021-12-31">
       <!-- Form which will send a POST request to the current URL -->
       <br>
@@ -248,7 +248,7 @@
 </div>
 
     <button>Save</button> <input type="submit" value="Submit">
-    </form>
+
    </section>
     
         </body>
