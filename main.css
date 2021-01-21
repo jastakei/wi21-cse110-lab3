@@ -9,14 +9,18 @@
 #bear {
     color:rgba(111, 0, 202, 0.767);
 }
-textarea {
+.story {
     border-style:dotted;
+    border-color: gold rgb(151, 207, 158);
+    border-width: 1em;
+    border-radius: 25% 10%;
 }
 a[href*="huffpost"] {
     color: cyan;
 }
 nav {
     background-color: skyblue; 
+    background-size: 30%;
 }
 #table {
     color:#f09;
@@ -33,3 +37,14 @@ button:hover {
   a:visited {
     color: purple;
   }
+  h1, h2, h3, h4, h5, h6 { 
+    font-family: helvetica; 
+    font-weight: bold;
+    text-shadow: 4px 4px 3px rgb(87, 27, 82);
+}
+p {
+    font-size: 1in;
+}
+td {
+    font-size: 1 cm;
+}
