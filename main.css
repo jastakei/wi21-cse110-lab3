@@ -4,12 +4,12 @@
 }
 .fancy {
     font-weight: bold;
-    text-shadow: 4px 4px 3px mistyrose;
+    text-shadow: 4px 4px 3px rgb(87, 27, 82);
   }
 #bear {
-    color:rgba(238, 165, 165, .7);
+    color:rgba(111, 0, 202, 0.767);
 }
-#story {
+textarea {
     border-style:dotted;
 }
 a[href*="huffpost"] {
@@ -27,3 +27,9 @@ nav {
 *.thanks {
     color: hsla(240, 100%, 50%, .7);
 }
+button:hover {
+    color: blue;
+  }
+  a:visited {
+    color: purple;
+  }
