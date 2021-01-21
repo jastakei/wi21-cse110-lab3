@@ -9,3 +9,12 @@
 #bear {
     color:rgba(238, 165, 165, .7);
 }
+#table {
+    color:#f09;
+}
+#surveylabels {
+    color: hsl(270,60%,70%);
+}
+#thanks {
+    color: hsla(240, 100%, 50%, .7);
+}

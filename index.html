@@ -7,7 +7,7 @@
         }
         
         h1 {
-          color: rgb(247, 243, 243);
+          color: #fffbfb;
           margin-left: 40px;
         }
         </style>
@@ -165,27 +165,27 @@
        <hr>
        <h2 style="color:white ;text-align:center;">Survey</h2>
        <form>
-        <label>Name:
+        <label id="surveylabels">Name:
           <input type="text" id="name" name="name" required
           minlength="4" maxlength="8" size="10">
         </label>
     </form>
         <br>
-        <label for="start">Today's date:</label>
+        <label id="surveylabels" for="start">Today's date:</label>
 
 <input type="date" id="start" name="start"
        value="2021-01-15"
        min="2020-01-01" max="2021-12-31">
       <!-- Form which will send a POST request to the current URL -->
       <br>
-      <label for="email">Enter your gmail:</label>
+      <label id="surveylabels" for="email">Enter your gmail:</label>
 
 <input type="email" id="email"
          size="30" required>  
-      <p>Favorite Color:</p> 
+      <p id="surveylabels">Favorite Color:</p> 
           <input type="color" id="pink" name="Pink" value="#e66465">
 
-        <p>What do you like to to for fun? (Select all that apply.)</p>
+        <p id="surveylabels">What do you like to to for fun? (Select all that apply.)</p>
 
 <div>
   <input type="checkbox" id="choice1" name="choice1"
@@ -206,7 +206,7 @@
   <label for="choice4">Play Video Games</label>
 </div>
 <br>
-<label for="url"> Recommend a website:</label>
+<label id="surveylabels" for="url"> Recommend a website:</label>
 
 <input type="url" name="url" id="url"
        placeholder="https://example.com"
@@ -218,7 +218,7 @@
           <label><input type="radio" name="radio"> True</label>
           <label><input type="radio" name="radio"> False</label>
         </fieldset>
-        <label for="ice-cream-choice">Choose a flavor:</label>
+        <label for="ice-cream-choice" id="surveylabels">Choose a flavor:</label>
         <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
         
         <datalist id="ice-cream-flavors">
@@ -229,7 +229,7 @@
             <option value="Vanilla">
         </datalist>
         <br>
-      <label for="dino-select">Choose a dinosaur:</label>
+      <label id="surveylabels" for="dino-select">Choose a dinosaur:</label>
 <select id="dino-select">
     <optgroup label="Theropods">
         <option>Tyrannosaurus</option>
@@ -238,13 +238,13 @@
     </optgroup>
     </select>
     <br>
-    <label for="avatar">Choose a picture:</label>
+    <label id="surveylabels" for="avatar">Choose a picture:</label>
 
 <input type="file"
        id="avatar" name="avatar"
        accept="image/png, image/jpeg">
        <br>
-    <p>How happy are you with this survey?</p>
+    <p id="surveylabels">How happy are you with this survey?</p>
 
 <div>
   <input type="range" id="volume" name="volume"
@@ -269,7 +269,7 @@
                 <polygon points = "100,10 40,180 190,60 10,60 160,180" fill = "blue"/>
               </svg>
              <aside>
-                <p>
+                <p class="thanks">
                   Thanks for visiting!
                 </p>
               </aside>
