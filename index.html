@@ -84,6 +84,7 @@
 <textarea id="story" name="story"
           rows="5" cols="33">
           Ego says "once everything falls into place, I'll feel peace."" The Soul says "find your peace and then everything will fall into place."
+          You can read more into the meaning about it <a href="https://www.huffpost.com/entry/why-finding-peace-first-a_b_8761164"> here.</a>
           
 
 </textarea>
@@ -126,13 +127,13 @@
 </iframe>
     <section id="things">
         <h2 style="color:white ;text-align:center;">Things I Want to do Before I Graduate</h2> 
-        <table>
+        <table id="table">
             <caption>Hopefully corona ends so i can go back and do these things :(</caption>
     <colgroup>
         <col>
         <col>
     </colgroup>
-    <template id="table"></template>
+    <template></template>
             <tr>
               <th scope="col"> Have I Done It?</th>
               <th scope="col"> Thing</th>
@@ -165,20 +166,20 @@
        <hr>
        <h2 style="color:white ;text-align:center;">Survey</h2>
        <form>
-        <label id="surveylabels">Name:
+        <label >Name:
           <input type="text" id="name" name="name" required
           minlength="4" maxlength="8" size="10">
         </label>
     </form>
         <br>
-        <label id="surveylabels" for="start">Today's date:</label>
+        <label for="start">Today's date:</label>
 
 <input type="date" id="start" name="start"
        value="2021-01-15"
        min="2020-01-01" max="2021-12-31">
       <!-- Form which will send a POST request to the current URL -->
       <br>
-      <label id="surveylabels" for="email">Enter your gmail:</label>
+      <label for="email">Enter your gmail:</label>
 
 <input type="email" id="email"
          size="30" required>  
@@ -206,7 +207,7 @@
   <label for="choice4">Play Video Games</label>
 </div>
 <br>
-<label id="surveylabels" for="url"> Recommend a website:</label>
+<label for="url"> Recommend a website:</label>
 
 <input type="url" name="url" id="url"
        placeholder="https://example.com"
@@ -218,7 +219,7 @@
           <label><input type="radio" name="radio"> True</label>
           <label><input type="radio" name="radio"> False</label>
         </fieldset>
-        <label for="ice-cream-choice" id="surveylabels">Choose a flavor:</label>
+        <label for="ice-cream-choice" >Choose a flavor:</label>
         <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
         
         <datalist id="ice-cream-flavors">
@@ -229,7 +230,7 @@
             <option value="Vanilla">
         </datalist>
         <br>
-      <label id="surveylabels" for="dino-select">Choose a dinosaur:</label>
+      <label for="dino-select">Choose a dinosaur:</label>
 <select id="dino-select">
     <optgroup label="Theropods">
         <option>Tyrannosaurus</option>
@@ -238,13 +239,13 @@
     </optgroup>
     </select>
     <br>
-    <label id="surveylabels" for="avatar">Choose a picture:</label>
+    <label for="avatar">Choose a picture:</label>
 
 <input type="file"
        id="avatar" name="avatar"
        accept="image/png, image/jpeg">
        <br>
-    <p id="surveylabels">How happy are you with this survey?</p>
+    <p>How happy are you with this survey?</p>
 
 <div>
   <input type="range" id="volume" name="volume"
