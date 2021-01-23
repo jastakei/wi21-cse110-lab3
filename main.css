@@ -97,7 +97,7 @@ ol > li {
     display: flex;
     justify-content: space-around;
     align-content: stretch;
-    align-items: center;
+    flex-wrap: wrap;
 }
 br + details {
     background-color:rgb(151, 207, 158);
