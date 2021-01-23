@@ -99,6 +99,12 @@ ol > li {
     align-content: stretch;
     flex-wrap: wrap;
 }
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: space-evenly;
+  }
 br + details {
     background-color:rgb(151, 207, 158);
 
