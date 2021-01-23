@@ -21,7 +21,7 @@
 -
 -
 
-#### What we need to get down this week:
+### What we need to get done this week:
 
 
 #### Conclusions:
