@@ -27,6 +27,7 @@ nav {
 }
 nav li {
     display: inline-block;
+}
 #table {
     color:#f09;
 }
@@ -35,11 +36,17 @@ nav li {
 }
 *.thanks {
     color: hsla(240, 100%, 50%, .7);
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73AD21;
+    
 }
 button:hover {
     color: blue;
   }
-  a:visited {
+  a:active {
     color: purple;
   }
   h1, h2, h3, h4, h5, h6 { 
@@ -73,6 +80,7 @@ width: min-content;
     margin: auto;
 }
 #story {
+    position: relative;
     margin: none;
 }
 #captionn {
@@ -85,6 +93,13 @@ ol > li {
     background-color: white;
 
 }
+.listof {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
 br + details {
+    background-color:rgb(151, 207, 158);
 
 }
