@@ -25,6 +25,8 @@ nav {
     height:auto;
     width:auto;
 }
+nav li {
+    display: inline-block;
 #table {
     color:#f09;
 }
@@ -64,6 +66,8 @@ td {
 #Summary {
     margin: 10px 50px 20px;
     padding: 1em;
+    width: max-content;
+width: min-content;
 }
 #storylabel {
     margin: auto;
@@ -77,4 +81,10 @@ td {
 #search {
     font-family: 'Cinzel', serif;
 }
+ol > li {
+    background-color: white;
 
+}
+br + details {
+
+}
