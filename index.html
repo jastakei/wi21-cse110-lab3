@@ -14,6 +14,8 @@
         <title>Jasmine's Site</title>
         <meta charset="utf-8">
         <link href="main.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
@@ -23,7 +25,7 @@
         </section>
     </header>
         
-            <label for="site-search">Search my site:</label>
+            <label id="search" for="site-search">Search my site:</label>
 <input type="search" id="site-search" name="q"
        aria-label="Search through site content">
 
@@ -79,7 +81,7 @@
         </p>
         <hr>
         <h3 style="color:white ;text-align:center;">Random Stuff</h3>
-        <label for="story">My favorite quote:</label>
+        <label id="storylabel" for="story">My favorite quote:</label>
 
 <textarea id="story" class="story"
           rows="5" cols="33">
@@ -130,7 +132,7 @@ You can read more into the meaning about it <a href="https://www.huffpost.com/en
     <section id="things">
         <h2 style="color:white ;text-align:center;">Things I Want to do Before I Graduate</h2> 
         <table id="table">
-            <caption>Hopefully corona ends so i can go back and do these things :(</caption>
+            <caption id="captionn">Hopefully corona ends so i can go back and do these things :(</caption>
     <colgroup>
         <col>
         <col>
