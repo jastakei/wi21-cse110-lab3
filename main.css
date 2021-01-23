@@ -71,8 +71,6 @@ td {
     padding-right: 1ch;
 }
 #Summary {
-    margin: 10px 50px 20px;
-    padding: 1em;
     width: max-content;
 width: min-content;
 }
@@ -109,8 +107,9 @@ br + details {
     background-color:rgb(151, 207, 158);
 
 }
-@media screen and (max-width: 480px) {
-    body {
-      background-color: lightgreen;
-    }
+em ~ strong {
+    color: rgb(152, 49, 221);
   }
+div.grid-item {
+    color:rgb(87, 27, 82);
+}
