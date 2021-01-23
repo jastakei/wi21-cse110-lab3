@@ -19,8 +19,11 @@ a[href*="huffpost"] {
     color: cyan;
 }
 nav {
+
     background-color: skyblue; 
     background-size: 30%;
+    height:auto;
+    width:auto;
 }
 #table {
     color:#f09;
@@ -42,9 +45,36 @@ button:hover {
     font-weight: bold;
     text-shadow: 4px 4px 3px rgb(87, 27, 82);
 }
-p {
+h1 {
     font-size: 1in;
 }
 td {
     font-size: 1 cm;
 }
+.pageHeader { 
+    margin-top:   5%; 
+    margin-bottom:   5%; 
+    margin-left:   5%; 
+    margin-right:   5%; 
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+#Summary {
+    margin: 10px 50px 20px;
+    padding: 1em;
+}
+#storylabel {
+    margin: auto;
+}
+#story {
+    margin: none;
+}
+#captionn {
+    text-decoration: underline overline #ffffff;
+}
+#search {
+    font-family: 'Cinzel', serif;
+}
+
