@@ -71,15 +71,15 @@ td {
     padding-right: 1ch;
 }
 #Summary {
-    width: max-content;
-width: min-content;
+    width: 22ex;
+height: min-content;
 }
 #storylabel {
     margin: auto;
 }
 #story {
     position: relative;
-    margin: none;
+    display: block;
 }
 #captionn {
     text-decoration: underline overline #ffffff;
@@ -98,10 +98,13 @@ ol > li {
     flex-wrap: wrap;
 }
 .grid-container {
-    display: grid;
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     justify-content: space-evenly;
+    background-color: salmon;
+    
   }
 br + details {
     background-color:rgb(151, 207, 158);
