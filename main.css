@@ -109,3 +109,8 @@ br + details {
     background-color:rgb(151, 207, 158);
 
 }
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
