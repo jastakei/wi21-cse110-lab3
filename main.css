@@ -95,7 +95,7 @@ ol > li {
 }
 .listof {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: stretch;
     align-items: center;
 }
